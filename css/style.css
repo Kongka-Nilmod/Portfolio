@@ -425,12 +425,12 @@ header {
 }
 
 .portfolio__img {
-    transition: transform 300ms cubic-bezier(.2, 0, .2, 1),
-    opacity 250ms linear;
+    transition: /* transform 300ms cubic-bezier(.5, .5, 1, 1) */
+    opacity 200ms ease-in-out;
 }
 
 .portfolio__img:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     opacity: .8;
 }
 
