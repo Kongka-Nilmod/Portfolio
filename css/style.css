@@ -471,7 +471,17 @@ header {
 }
 
 .social-list__link {
-    padding: .25em
+    padding: .25em;
+}
+
+.click__link {
+    color: var(--clr-accent);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.click__link:hover {
+    text-decoration: underline;
 }
 
 .footer__link:hover {
