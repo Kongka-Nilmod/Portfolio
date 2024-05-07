@@ -530,5 +530,6 @@ header {
 }
 
 .section__subtitle--projects {
+    /* color: var(--clr-accent); */
     margin-bottom: 0.25em;
 }
